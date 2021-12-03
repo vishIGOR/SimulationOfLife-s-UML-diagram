@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-03T15:27:32.236Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36 OPR/81.0.4196.60" etag="T9OHnDbAQSNTxz8XP-r_" version="15.8.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-03T15:33:24.022Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36 OPR/81.0.4196.60" etag="Oy6CrDB-5i9oot0q3z8K" version="15.8.9" type="github">
   <diagram name="Page-1" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
-    <mxGraphModel dx="1152" dy="1454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2303" dy="2058" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -897,19 +897,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="h7rE-Q1z8wtShtCBn0Cs-11" value="ResourceDeposit" style="swimlane;fontStyle=3;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;labelBackgroundColor=none;fillColor=#FFFFFF;fontColor=#009900;" parent="1" vertex="1">
-          <mxGeometry x="1395" y="1690" width="160" height="102" as="geometry" />
+          <mxGeometry x="1370" y="1690" width="210" height="102" as="geometry" />
         </mxCell>
         <mxCell id="h7rE-Q1z8wtShtCBn0Cs-12" value="- PossibleMiningTool: Tool" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#009900;" parent="h7rE-Q1z8wtShtCBn0Cs-11" vertex="1">
-          <mxGeometry y="26" width="160" height="24" as="geometry" />
+          <mxGeometry y="26" width="210" height="24" as="geometry" />
         </mxCell>
         <mxCell id="yYUxo61P4p9Tg4wxxYNJ-9" value="- ResourceType: ResourceType" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;labelBackgroundColor=none;fontColor=#009900;" vertex="1" parent="h7rE-Q1z8wtShtCBn0Cs-11">
-          <mxGeometry y="50" width="160" height="20" as="geometry" />
+          <mxGeometry y="50" width="210" height="20" as="geometry" />
         </mxCell>
         <mxCell id="h7rE-Q1z8wtShtCBn0Cs-13" value="" style="line;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#000000;" parent="h7rE-Q1z8wtShtCBn0Cs-11" vertex="1">
-          <mxGeometry y="70" width="160" height="8" as="geometry" />
+          <mxGeometry y="70" width="210" height="8" as="geometry" />
         </mxCell>
         <mxCell id="cckaSs6PpkPQdrwJPwVV-19" value="+ GetPossibleMiningTool: Tool" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#009900;fontStyle=0" parent="h7rE-Q1z8wtShtCBn0Cs-11" vertex="1">
-          <mxGeometry y="78" width="160" height="24" as="geometry" />
+          <mxGeometry y="78" width="210" height="24" as="geometry" />
         </mxCell>
         <mxCell id="h7rE-Q1z8wtShtCBn0Cs-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#009900;endArrow=block;endFill=0;endSize=10;" parent="1" source="h7rE-Q1z8wtShtCBn0Cs-23" target="h7rE-Q1z8wtShtCBn0Cs-11" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1073,30 +1073,30 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="h7rE-Q1z8wtShtCBn0Cs-106" value="House" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;labelBackgroundColor=none;fontColor=#009900;" parent="1" vertex="1">
-          <mxGeometry x="1630" y="2250" width="260" height="158" as="geometry">
+          <mxGeometry x="1630" y="2250" width="290" height="158" as="geometry">
             <mxRectangle x="1395" y="1940" width="60" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="cckaSs6PpkPQdrwJPwVV-38" value="+ FoodStore: FoodType[]" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;labelBackgroundColor=none;fontColor=#009900;" parent="h7rE-Q1z8wtShtCBn0Cs-106" vertex="1">
-          <mxGeometry y="26" width="260" height="20" as="geometry" />
+          <mxGeometry y="26" width="290" height="20" as="geometry" />
         </mxCell>
         <mxCell id="yYUxo61P4p9Tg4wxxYNJ-7" value="- Resources: ResourseType[]" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#009900;" vertex="1" parent="h7rE-Q1z8wtShtCBn0Cs-106">
-          <mxGeometry y="46" width="260" height="24" as="geometry" />
+          <mxGeometry y="46" width="290" height="24" as="geometry" />
         </mxCell>
         <mxCell id="h7rE-Q1z8wtShtCBn0Cs-107" value="" style="line;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#009900;" parent="h7rE-Q1z8wtShtCBn0Cs-106" vertex="1">
-          <mxGeometry y="70" width="260" height="8" as="geometry" />
+          <mxGeometry y="70" width="290" height="8" as="geometry" />
         </mxCell>
         <mxCell id="h7rE-Q1z8wtShtCBn0Cs-114" value="+ PutFood( FoodType foodType, int number):void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;labelBackgroundColor=none;fontColor=#009900;" parent="h7rE-Q1z8wtShtCBn0Cs-106" vertex="1">
-          <mxGeometry y="78" width="260" height="20" as="geometry" />
+          <mxGeometry y="78" width="290" height="20" as="geometry" />
         </mxCell>
         <mxCell id="h7rE-Q1z8wtShtCBn0Cs-115" value="+ GetFood( FoodType foodType):int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;labelBackgroundColor=none;fontColor=#009900;" parent="h7rE-Q1z8wtShtCBn0Cs-106" vertex="1">
-          <mxGeometry y="98" width="260" height="20" as="geometry" />
+          <mxGeometry y="98" width="290" height="20" as="geometry" />
         </mxCell>
         <mxCell id="yYUxo61P4p9Tg4wxxYNJ-4" value="+ PutResource(int number, T type):void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;labelBackgroundColor=none;fontColor=#009900;" vertex="1" parent="h7rE-Q1z8wtShtCBn0Cs-106">
-          <mxGeometry y="118" width="260" height="20" as="geometry" />
+          <mxGeometry y="118" width="290" height="20" as="geometry" />
         </mxCell>
         <mxCell id="yYUxo61P4p9Tg4wxxYNJ-5" value="+ GetResource(int number, T type):void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;labelBackgroundColor=none;fontColor=#009900;" vertex="1" parent="h7rE-Q1z8wtShtCBn0Cs-106">
-          <mxGeometry y="138" width="260" height="20" as="geometry" />
+          <mxGeometry y="138" width="290" height="20" as="geometry" />
         </mxCell>
         <mxCell id="cckaSs6PpkPQdrwJPwVV-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startSize=10;endArrow=block;endFill=0;endSize=10;" parent="1" source="cckaSs6PpkPQdrwJPwVV-9" target="wbjeCLPetbBICYHkdIRn-6" edge="1">
           <mxGeometry relative="1" as="geometry">
